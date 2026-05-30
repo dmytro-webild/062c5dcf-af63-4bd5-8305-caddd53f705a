@@ -68,17 +68,17 @@ export default function LandingPage() {
       ]}
       carouselItems={[
         {
-          id: "1",          imageSrc: "http://img.b2bpic.net/free-photo/tuna-salad-with-eggs-glass-wine_140725-6858.jpg",          videoSrc: "http://img.b2bpic.net/free-photo/people-having-dinner-luxurious-restaurants_23-2151081849.jpg",          imageAlt: "Luxurious restaurant interior",          videoAriaLabel: "Cinematic video of restaurant interior"},
+          id: "1",          imageSrc: "http://img.b2bpic.net/free-photo/tuna-salad-with-eggs-glass-wine_140725-6858.jpg",          imageAlt: "Luxurious restaurant interior"},
         {
-          id: "2",          imageSrc: "http://img.b2bpic.net/free-photo/baker-hands-pouring-oil-dough-composition_23-2148302923.jpg",          videoSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-fusion-food-with-sushi-seasonings-plate-wooden-surface_181624-42994.jpg",          imageAlt: "Gourmet dish being prepared",          videoAriaLabel: "Cinematic video of a gourmet dish"},
+          id: "2",          imageSrc: "http://img.b2bpic.net/free-photo/baker-hands-pouring-oil-dough-composition_23-2148302923.jpg",          imageAlt: "Gourmet dish being prepared"},
         {
-          id: "3",          imageSrc: "http://img.b2bpic.net/free-photo/chef-filling-orange-peel-with-salad_23-2148491320.jpg",          videoSrc: "http://img.b2bpic.net/free-photo/front-view-delicious-food-concept_23-2148510918.jpg",          imageAlt: "Chef working in the kitchen",          videoAriaLabel: "Cinematic video of the chef"},
+          id: "3",          imageSrc: "http://img.b2bpic.net/free-photo/chef-filling-orange-peel-with-salad_23-2148491320.jpg",          imageAlt: "Chef working in the kitchen"},
         {
-          id: "4",          imageSrc: "http://img.b2bpic.net/free-photo/valentines-day-table-setting-romantic-dinner-marry-me-wedding-engagement-ring-box_114579-459.jpg",          videoSrc: "http://img.b2bpic.net/free-photo/delicious-high-quality-wine-still-life_23-2149710973.jpg",          imageAlt: "Elegant table setting",          videoAriaLabel: "Cinematic video of an elegant table setting"},
+          id: "4",          imageSrc: "http://img.b2bpic.net/free-photo/valentines-day-table-setting-romantic-dinner-marry-me-wedding-engagement-ring-box_114579-459.jpg",          imageAlt: "Elegant table setting"},
         {
-          id: "5",          imageSrc: "http://img.b2bpic.net/free-photo/glass-red-wine_1204-449.jpg",          videoSrc: "http://img.b2bpic.net/free-photo/delicious-high-quality-wine-still-life_23-2149710892.jpg",          imageAlt: "Wine pouring and cellar view",          videoAriaLabel: "Cinematic video of wine and cellar"},
+          id: "5",          imageSrc: "http://img.b2bpic.net/free-photo/glass-red-wine_1204-449.jpg",          imageAlt: "Wine pouring and cellar view"},
         {
-          id: "6",          imageSrc: "http://img.b2bpic.net/free-photo/exterior-modern-buildings_1127-2941.jpg",          videoSrc: "http://img.b2bpic.net/free-photo/french-restaurant-scene-with-menu-board_1147-448.jpg",          imageAlt: "Restaurant exterior at night",          videoAriaLabel: "Cinematic video of the restaurant exterior"},
+          id: "6",          imageSrc: "http://img.b2bpic.net/free-photo/exterior-modern-buildings_1127-2941.jpg",          imageAlt: "Restaurant exterior at night"},
       ]}
       autoPlay={true}
       autoPlayInterval={5000}
@@ -111,7 +111,7 @@ export default function LandingPage() {
       ]}
       title="シェフ 松岡 秀貴の世界"
       description="熊本の地に育ち、イタリアの食文化に魅せられた料理人。生産者と語らい、素材の声に耳を澄ます日々のなかで、「皿の上に、誰かの一日を残したい」という想いを、un giorno のすべての一皿に込めています。確かな技術と革新的な感性で、現代イタリアンの真髄を追求します。"
-      animationType="depth-3d"
+      animationType="blur-reveal"
     />
   </div>
 
@@ -143,7 +143,7 @@ export default function LandingPage() {
 
   <div id="courses" data-section="courses">
       <PricingCardOne
-      animationType="depth-3d"
+      animationType="blur-reveal"
       textboxLayout="default"
       useInvertedBackground={false}
       carouselMode="buttons"
